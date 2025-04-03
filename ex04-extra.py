@@ -7,7 +7,7 @@ card = "red"
 level = 101
 
 
-if not call and card == "red" and level > 90 :
+if not call and card == "red" or level > 90 :
   print("Welcome to the Battle")
 
 
